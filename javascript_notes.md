@@ -62,3 +62,10 @@ const DONTCHANGE = 'Cats are great!';
 _*Note*_: Objects (including arrays and functions) assigned to a variable using const are still mutable. Using the const declaration only prevents reassignment of the variable identifier. 
 
 const declaration alone doesn't really protect your data from mutation. To ensure your data doesn't change, JavaScript provides a function Object.freeze to prevent data mutation.
+
+### Rest Pararmeter with Functions
+Rest parameters allow us to create functions that take multiple parameters without specifiying ahead...
+```js
+function restParams(...params) {
+	return "You have apssed " + params.length;
+}
