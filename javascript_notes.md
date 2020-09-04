@@ -83,7 +83,7 @@ Rest parameters allow us to create functions that take multiple parameters witho
 
 ```js
 function restParams(...params) {
-  return "You have apssed " + params.length;
+  return "There are this many params " + params.length;
 }
 ```
 
